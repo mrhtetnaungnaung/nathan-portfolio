@@ -441,17 +441,7 @@ export default function Portfolio() {
         <p>© 2026 Htet Naung Naung (Nathan). Built with React & Tailwind CSS.</p>
       </footer>
 
-      {/* Floating CTAs: Get In Touch + View Work */}
-      <div className="fixed right-6 bottom-6 z-50 flex flex-col items-end gap-3">
-        <a href="mailto:lk.htetnaungnaung@gmail.com" aria-label="Get in touch" className="flex items-center gap-2 px-4 py-2 bg-cyan-500 hover:bg-cyan-600 text-white rounded-full shadow-lg">
-          <Mail size={16} />
-          <span className="hidden sm:inline">Get In Touch</span>
-        </a>
-        <button onClick={() => scrollToSection('experience')} aria-label="View work" className="flex items-center gap-2 px-4 py-2 bg-slate-800/80 hover:bg-slate-700/80 text-white rounded-full shadow-lg border border-slate-700">
-          <Briefcase size={16} />
-          <span className="hidden sm:inline">View Work</span>
-        </button>
-      </div>
+      {/* Floating CTAs removed */}
     </div>
   );
 }
