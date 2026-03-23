@@ -157,7 +157,7 @@ export default function Portfolio() {
             <h2 className="text-2xl md:text-3xl text-slate-300 mb-6">Backend Software Engineer</h2>
             <TypingText
               phrases={[
-                'Backend Software Engineer',
+                'Backend Software Engineering',
                 'Java Spring Boot',
                 'Cloud & Serverless Systems',
                 'Scalable APIs',
